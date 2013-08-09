@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<store>
+	<name>Three Aces</name>
+	<contact>
+		<address>
+			<street> Massachusetts Ave 1613</street>
+			<city>Cambridge</city>
+			<state>MA</state>
+			<zip>02139</zip>
+		</address>
+		<phone>617-491-2884</phone>
+	</contact>
+	<menu>
+		<section name="Pizza">
+			<item  title="Tomato &amp; Cheese">
+				<option type="small" price="5.50"></option>
+				<option type="large" price="6.70"></option>
+			</item>
+			<item title="Pepperoni">	
+				<option type="small" price="6.50"></option>
+				<option type="large" price="7.70"></option>
+			</item>
+			<item title="Mediterranean" description="Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese">
+				<option type="small" price="9.60"></option>
+				<option type="large" price="13.80"></option>
+			</item>
+		</section>
+		<section name="Pasta">
+			<item title="Chicken Cutlet">
+				<option type="Spaghetti" price="5.50"></option>
+				<option type="Ziti" price="6.70"></option>
+				<option type="Lasagne" price="6.70"></option>
+			</item>
+			<item title="Meat Ball">
+				<option type="Spaghetti" price="5.50"></option>
+				<option type="Ziti" price="6.70"></option>
+				<option type="Lasagne" price="6.70"></option>
+			</item>
+			<item title="A la Three Aces" description="Sausage, Mushrooms &amp; Tomato souce">
+				<option type="Spaghetti" price="7.25"></option>
+				<option type="Mannicotti" price="6.70"></option>
+			</item>
+		</section>
+		<section name="Dinner">
+			<item title="Fish &amp; Chips Dinner Served" description="Served with side salad, french fries &amp; tartar sauce">
+				<option price="7.35"></option>
+			</item>
+			<item title="Chicken Kabob Plate" description="With rice, salad &amp; pita bread">
+				<option price="7.85"></option>
+			</item>
+			<item title="Chicken Finger Plate">
+				<option price="7.85"></option>
+			</item>
+		</section>
+	</menu>
+</store>

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(\bhome\b|\bcart\b|\badd2cart\b|\bclear\b|\bdelete\b|\bcheckout\b)$ index.php?page=$1 [L]
+RewriteRule ^menu/(.*)$ index.php?page=menu&name=$1 [L]
